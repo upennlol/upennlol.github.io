@@ -1,0 +1,66 @@
+html, body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  display: inline;
+}
+
+h2 {
+
+}
+
+:link {
+
+}
+
+#main {
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+#sidebar ul{
+  position: fixed;
+  list-style: none;
+
+  width: 350px;
+  float: left;
+
+}
+
+#navbar ul {
+  list-style: none;
+}
+
+#navbar li {
+  display: inline;
+}
+
+.post {
+  width: 600px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.hoverhide {
+  display: none;
+}
+
+.hovershow:hover .hoverhide {
+  display: inline;
+}
+
+
+
+
+
+
+}
+
+/* adds box-sizing to every element */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
